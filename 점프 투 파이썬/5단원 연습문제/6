@@ -1,0 +1,6 @@
+def tripple(n):
+    return 3*n
+
+List = [1,2,3,4]
+result1 = list(map(tripple,List))
+print(result1)

@@ -1,0 +1,8 @@
+import random
+box = []
+while len(box) <6:
+    a=random.randint(1,46)
+    if a not in box:
+        box.append(a)
+
+print(box)

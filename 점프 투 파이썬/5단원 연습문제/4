@@ -1,0 +1,10 @@
+List = [1,-2,3,-5,8,-3]
+List1 = []
+def positive (n):
+        if n >0:
+            return True
+        else:
+            return False
+        
+List1 = list(filter(lambda n : n>0,List))
+print(List1)
